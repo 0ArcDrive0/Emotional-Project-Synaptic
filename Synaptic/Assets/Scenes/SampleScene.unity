@@ -315,6 +315,60 @@ MonoBehaviour:
   PlayerTransform: {fileID: 1540917522}
   _cameraoffset: {x: 0, y: 0, z: 0}
   SmoothFactor: 1
+--- !u!1 &967452620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 967452623}
+  - component: {fileID: 967452622}
+  - component: {fileID: 967452621}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &967452621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967452620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &967452622
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967452620}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &967452623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967452620}
+  m_LocalRotation: {x: 0.20803067, y: 0.675813, z: 0.20803067, w: 0.675813}
+  m_LocalPosition: {x: 0.021249654, y: 0.84828, z: -0.8886601}
+  m_LocalScale: {x: 0.13713922, y: 0.099914, z: 0.09294983}
+  m_Children: []
+  m_Father: {fileID: 4198087739999821602}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 34.219}
 --- !u!1 &1540917517
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +483,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 225b2a3a15aeddd498ef260315870e1c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -701,6 +755,7 @@ Transform:
   m_Children:
   - {fileID: 2422543790023167554}
   - {fileID: 2999663273570610301}
+  - {fileID: 967452623}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
@@ -723,6 +778,7 @@ GameObject:
   - component: {fileID: 2999663273570610301}
   - component: {fileID: 8090127232516473994}
   - component: {fileID: 2443977236610155010}
+  - component: {fileID: 7898641263137498496}
   m_Layer: 0
   m_Name: stair_no_rail:Mesh
   m_TagString: Untagged
@@ -730,6 +786,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &7898641263137498496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7898641263137498495}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0140302, y: 0.80041504, z: 0.6410659}
+  m_Center: {x: -0.00701499, y: 0.80020726, z: -1.8038404}
 --- !u!33 &8090127232516473994
 MeshFilter:
   m_ObjectHideFlags: 0

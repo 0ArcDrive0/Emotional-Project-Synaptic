@@ -35,6 +35,8 @@ public class TopDownCharMovement : MonoBehaviour
 
        myAnim.SetFloat("MoveX" , _input.InputVector.x);
        myAnim.SetFloat("MoveY" , _input.InputVector.y);
+        myAnim.SetFloat("LastMoveX", _input.InputVector.x);
+        myAnim.SetFloat("LastMoveY", _input.InputVector.y);
     }
 
     private void MoveTowardTarget(Vector3 targetVector)
