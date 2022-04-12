@@ -39,8 +39,8 @@
      <Compile Include="Assets\Scripts\TopDownCharMovement.cs" />
      <Compile Include="Assets\Scripts\InputHandler.cs" />
      <Compile Include="Assets\Scripts\PlayerFollow.cs" />
-     <Compile Include="Assets\Scripts\VectorPosition (1).cs" />
-     <Compile Include="Assets\Scripts\SceneTransition.cs" />
+     <Compile Include="Assets\Scripts\LoadSceneOnTrig.cs" />
+     <Compile Include="Assets\Scripts\Footsteps.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
