@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadSceneOnTrig : MonoBehaviour
 {
-
+    public bool inCollider = false;
     public GameObject enterText;
     public string levelToLoad;
 
@@ -14,23 +14,32 @@ public class LoadSceneOnTrig : MonoBehaviour
         enterText.SetActive(false);
     }
 
-    // Update is called once per frame
-    void OnTriggerStay(Collider plyr)
-    {
-        if (plyr.gameObject.tag == "Player")
-        {
+    void Update() {
+        if (inCollider) {
             enterText.SetActive(true);
             if (Input.GetButtonDown("Use"))
             {
                 SceneManager.LoadScene(levelToLoad);
             }
+        } else {
+            enterText.SetActive(false);
+        }
+    }
+
+
+    // Update is called once per frame
+    void OnTriggerEnter(Collider plyr)
+    {
+        if (plyr.gameObject.tag == "Player")
+        {
+            inCollider = true;
         }
     }
     void OnTriggerExit(Collider plyr)
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterText.SetActive(false);
+            inCollider = false;
         }
     }
 }
