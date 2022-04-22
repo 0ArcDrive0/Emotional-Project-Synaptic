@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19044.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16293 MB
+OS: 'Windows 10 Pro; OS build 19044.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16295 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/jgould2021/Documents/Emotional-Project-Synaptic/Synaptic
+C:/Users/jgould2021/Documents/GitHub/Emotional-Project-Synaptic/Synaptic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53889
-Successfully changed project path to: C:/Users/jgould2021/Documents/Emotional-Project-Synaptic/Synaptic
-C:/Users/jgould2021/Documents/Emotional-Project-Synaptic/Synaptic
+58209
+Successfully changed project path to: C:/Users/jgould2021/Documents/GitHub/Emotional-Project-Synaptic/Synaptic
+C:/Users/jgould2021/Documents/GitHub/Emotional-Project-Synaptic/Synaptic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 23.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jgould2021/Documents/Emotional-Project-Synaptic/Synaptic/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jgould2021/Documents/GitHub/Emotional-Project-Synaptic/Synaptic/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,36 +35,36 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000945 seconds.
+Registered in 0.000961 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 22.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.346 seconds
+- Completed reload, in  0.350 seconds
 Domain Reload Profiling:
-	ReloadAssembly (346ms)
-		BeginReloadAssembly (33ms)
+	ReloadAssembly (350ms)
+		BeginReloadAssembly (34ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (268ms)
+		EndReloadAssembly (271ms)
 			LoadAssemblies (32ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (85ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (104ms)
+			SetupLoadedEditorAssemblies (106ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (22ms)
-				BeforeProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (7ms)
 				ProcessInitializeOnLoadAttributes (55ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
@@ -73,39 +73,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002420 seconds.
+Registered in 0.002580 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.600 seconds
+- Completed reload, in  0.601 seconds
 Domain Reload Profiling:
-	ReloadAssembly (600ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (477ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (475ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
+			SetupTypeCache (160ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
+			RebuildScriptCaches (24ms)
 			SetupLoadedEditorAssemblies (182ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -113,11 +113,11 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 second
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1620 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.4 MB.
-System memory in use after: 72.5 MB.
+System memory in use before: 72.3 MB.
+System memory in use after: 72.4 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2055.
-Total: 2.007300 ms (FindLiveObjects: 0.109200 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.844500 ms  DeleteObjects: 0.017400 ms)
+Total: 2.149000 ms (FindLiveObjects: 0.114600 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.987100 ms  DeleteObjects: 0.016500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,90 +131,426 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Staircase with rail and cloth.obj
-  artifactKey: Guid(87fb66481da3bf14cb1b9733d7724c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Staircase with rail and cloth.obj using Guid(87fb66481da3bf14cb1b9733d7724c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f8e7d9543cfafcd71a9bf2fbb54e34') in 0.096326 seconds 
-  Import took 0.098298 seconds .
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png
+  artifactKey: Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png using Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e875048cbec9b9466b6c969b3f9026f') in 0.052693 seconds 
+  Import took 0.054583 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Models/Wall2.prefab
-  artifactKey: Guid(0a2bb61ab5b864240a77754616e86be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Wall2.prefab using Guid(0a2bb61ab5b864240a77754616e86be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc41aee827e7f4534d03cd0f839213ee') in 0.009786 seconds 
-  Import took 0.011501 seconds .
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png
+  artifactKey: Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png using Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc072a0e972cd31ed0e57746ba93581') in 0.007445 seconds 
+  Import took 0.009393 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 358.591921 seconds.
-  path: Assets/Textures/Main characters wall texture.png
-  artifactKey: Guid(2f98347cb9e229e4daa6f58208429fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Main characters wall texture.png using Guid(2f98347cb9e229e4daa6f58208429fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e727abc774ba5d9aaa8fd2b7b164678') in 0.014356 seconds 
-  Import took 0.016494 seconds .
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png
+  artifactKey: Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png using Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344469595ac92e27283ff0f6b7ce4b3f') in 0.006774 seconds 
+  Import took 0.008424 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Textures/Stairs.mat
-  artifactKey: Guid(652534fc1ba1c174f9fc1b430d492029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Stairs.mat using Guid(652534fc1ba1c174f9fc1b430d492029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ca6351b123770ca1e203e05bfa47ed') in 0.015257 seconds 
-  Import took 0.016813 seconds .
+  Time since last request: 0.000107 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png
+  artifactKey: Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png using Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c60d83a188d45ecd4bff94606cc859') in 0.006229 seconds 
+  Import took 0.007883 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Textures/Walls.mat
-  artifactKey: Guid(c5800ab29d12002449cfba7e04c3be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Walls.mat using Guid(c5800ab29d12002449cfba7e04c3be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0080ebf0a5fdf103ffad48ce576bd4') in 0.007657 seconds 
-  Import took 0.009445 seconds .
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png
+  artifactKey: Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png using Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513be1fe1dc618b7c77589d881a53c99') in 0.007284 seconds 
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png
+  artifactKey: Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png using Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1710eebc4d68a75f346433a1810368e2') in 0.006521 seconds 
+  Import took 0.008152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png
+  artifactKey: Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png using Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f8d19dc3694a0087f05dbfa5a85033') in 0.006576 seconds 
+  Import took 0.008325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png
+  artifactKey: Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png using Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d2f9abbcdd8fd1493cd86f5e9f0d62') in 0.006735 seconds 
+  Import took 0.008340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png
+  artifactKey: Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png using Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc972ff4c4a2c82c17744094c202f908') in 0.006447 seconds 
+  Import took 0.008038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png
+  artifactKey: Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png using Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df733e2324c539ff995708921d649fd') in 0.006404 seconds 
+  Import took 0.007971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sprites/MC Sprites - Young
+  artifactKey: Guid(8cee004010e1e874a9f804eef98cf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young using Guid(8cee004010e1e874a9f804eef98cf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f0ce5c9eb3699cafdcacba26c88466') in 0.003150 seconds 
+  Import took 0.004718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png
+  artifactKey: Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png using Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930ac17130372dde24bb5fd1af574a6d') in 0.006642 seconds 
+  Import took 0.008243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png
+  artifactKey: Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png using Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081c1e70445130f39a79cc074719be04') in 0.006437 seconds 
+  Import took 0.008061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.715669 seconds.
+  path: Assets/Sprites/MC Sprites - Young/drive-download-20220420T093735Z-001.zip
+  artifactKey: Guid(a4a1dfd68c2fc0847b270ca9fd1b971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/drive-download-20220420T093735Z-001.zip using Guid(a4a1dfd68c2fc0847b270ca9fd1b971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08fda0a8a7a8187de8eb98d664dbf74') in 0.005787 seconds 
+  Import took 0.007902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.706357 seconds.
+  path: Assets/Sprites/MC Sprites - Young/drive-download-20220420T112522Z-001.zip
+  artifactKey: Guid(ff33b259b8cd1164a9d5d969ae9dac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/drive-download-20220420T112522Z-001.zip using Guid(ff33b259b8cd1164a9d5d969ae9dac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e28a1616674132f63e55bdea284e494') in 0.004164 seconds 
+  Import took 0.006195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.799171 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png
+  artifactKey: Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png using Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20acef07ce465a0cefe612ce3c2bb8df') in 0.019929 seconds 
+  Import took 0.021997 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000112 seconds.
-  path: Assets/Textures/Red.mat
-  artifactKey: Guid(e50df87bba5e37a4e96a5b54b8306642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Red.mat using Guid(e50df87bba5e37a4e96a5b54b8306642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1769550b087e18c1bae2ada17687012b') in 0.007718 seconds 
-  Import took 0.009476 seconds .
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png
+  artifactKey: Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png using Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23470548bc6a78cd45da5c1ca9a3d42') in 0.005950 seconds 
+  Import took 0.007808 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.533444 seconds.
-  path: Assets/Textures/Coffee Table.mat
-  artifactKey: Guid(bdaed513966f7b04791b7933a5b1cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Coffee Table.mat using Guid(bdaed513966f7b04791b7933a5b1cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b1c003c8efdda7126e58befdf013de') in 0.007760 seconds 
-  Import took 0.009755 seconds .
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png
+  artifactKey: Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png using Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517081037aa83e1c712e0c44aa889eee') in 0.015200 seconds 
+  Import took 0.016761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png
+  artifactKey: Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png using Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de08204f1bcf2dcdaa0797a2f1a0d1f6') in 0.010172 seconds 
+  Import took 0.011902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png
+  artifactKey: Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png using Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fbec7caea613664f90ea14755bfc5d') in 0.005265 seconds 
+  Import took 0.006840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png
+  artifactKey: Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png using Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ddc080cf0c2f501c34ff8a985483cc') in 0.006473 seconds 
+  Import took 0.008057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png
+  artifactKey: Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png using Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e49e13f03f0ad8ece834ab32c7fb61') in 0.005815 seconds 
+  Import took 0.007577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png
+  artifactKey: Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png using Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a660ea49494c3f488477193f83cfd674') in 0.008885 seconds 
+  Import took 0.010479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png
+  artifactKey: Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png using Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cbac8cb153e8d200f99246ca6e83bd') in 0.006003 seconds 
+  Import took 0.007593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png
+  artifactKey: Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png using Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17184cecb78d558ee19a499a15204ea1') in 0.008170 seconds 
+  Import took 0.009600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png
+  artifactKey: Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png using Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c11fd4e67be6a6a8f1111b20373455') in 0.007239 seconds 
+  Import took 0.008877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png
+  artifactKey: Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png using Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a463e6f46af70baf6ac9a8d0d2b7578') in 0.010937 seconds 
+  Import took 0.012481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.398372 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png
+  artifactKey: Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png using Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e91a923588e0bfcae116a3c4bc198c8') in 0.011015 seconds 
+  Import took 0.013159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png
+  artifactKey: Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png using Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee8a049df45be73f67a1d141bd3852e') in 0.016474 seconds 
+  Import took 0.018295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png
+  artifactKey: Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png using Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e7cac4f08e4b4e72ef569280791c6b') in 0.006179 seconds 
+  Import took 0.007833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.655680 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png
+  artifactKey: Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png using Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db45a1f7191f79413fbb5c739ffa55fb') in 0.005818 seconds 
+  Import took 0.007885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.112291 seconds.
+  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png
+  artifactKey: Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png using Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ca17263ba62aae64c60a157871f5c8') in 0.008540 seconds 
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.355590 seconds.
+  path: Assets/Sprites/Old Test Sprites
+  artifactKey: Guid(a213e20fa91d30e44bdec06e8de16e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites using Guid(a213e20fa91d30e44bdec06e8de16e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b03ac8067c0f4359a7c9eeb6c09067b') in 0.004339 seconds 
+  Import took 0.006262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.953395 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0011_front-standing 1.png
+  artifactKey: Guid(ac3c12525fb4c114aa9bd0abcee2a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0011_front-standing 1.png using Guid(ac3c12525fb4c114aa9bd0abcee2a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acfbaa6ab862323d4d1b1764c224288') in 0.011966 seconds 
+  Import took 0.013969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0003_left-walk-2.png
+  artifactKey: Guid(f48ad813bb7dc194db77f7446a993a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0003_left-walk-2.png using Guid(f48ad813bb7dc194db77f7446a993a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270af609361bda07b1d3bf4cb193c2a7') in 0.017430 seconds 
+  Import took 0.019087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0004_left-walk-1.png
+  artifactKey: Guid(395a8a0a543737b4fb696922655e1c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0004_left-walk-1.png using Guid(395a8a0a543737b4fb696922655e1c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65560790d5fad7a0b1961be041c912af') in 0.015369 seconds 
+  Import took 0.017148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0007_right-walk-1.png
+  artifactKey: Guid(29ad66de211d17d4a86b37f8f4adce1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0007_right-walk-1.png using Guid(29ad66de211d17d4a86b37f8f4adce1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9af67acbb59fe32b275589d40beafd8') in 0.007536 seconds 
+  Import took 0.009187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0000_back-walk-2.png
+  artifactKey: Guid(8e3c17f8a75acd64cbd2ad61e527fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0000_back-walk-2.png using Guid(8e3c17f8a75acd64cbd2ad61e527fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acea53964940fc46aa820efdf6b9a1ac') in 0.011699 seconds 
+  Import took 0.013657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0006_right-walk-2.png
+  artifactKey: Guid(84d002cdc649a6246b429161547234a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0006_right-walk-2.png using Guid(84d002cdc649a6246b429161547234a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d76f6e80f58aafa504e70a3f74660d4') in 0.011468 seconds 
+  Import took 0.013566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0005_left-standing.png
+  artifactKey: Guid(b9e02422585ab9242b505b3f6fde67ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0005_left-standing.png using Guid(b9e02422585ab9242b505b3f6fde67ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22e90cb02d08a982631502fa672427d') in 0.012572 seconds 
+  Import took 0.014272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0008_right-standing 1.png
+  artifactKey: Guid(eca5a1712c1c1ee49888d33fb02110b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0008_right-standing 1.png using Guid(eca5a1712c1c1ee49888d33fb02110b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4045707c302d97e59320430eab55392c') in 0.007774 seconds 
+  Import took 0.009493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0010_front-walk-1.png
+  artifactKey: Guid(6b53be8cb4a7bbd4f909924928784026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0010_front-walk-1.png using Guid(6b53be8cb4a7bbd4f909924928784026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05c0801c81802306575a04c25788a11') in 0.012407 seconds 
+  Import took 0.014004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0001_back-walk-1.png
+  artifactKey: Guid(1b1028ef211d5694da494609339dd54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0001_back-walk-1.png using Guid(1b1028ef211d5694da494609339dd54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f285e973fc1bd3480472fa5162fab3a1') in 0.011312 seconds 
+  Import took 0.013267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0008_right-standing.png
+  artifactKey: Guid(864fcd92cf6bbbe408642322d8753fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0008_right-standing.png using Guid(864fcd92cf6bbbe408642322d8753fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225c6128caebe7d985f0060ed7e85b77') in 0.014297 seconds 
+  Import took 0.015934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0002_back-standing 1.png
+  artifactKey: Guid(813270ee7f04a49468867c8ec7698993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0002_back-standing 1.png using Guid(813270ee7f04a49468867c8ec7698993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b381b31fe61d6a71ef9f80ea0cb12017') in 0.011237 seconds 
+  Import took 0.013093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0002_back-standing.png
+  artifactKey: Guid(9ef0b9ab5c8a52f4687bc28904966097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0002_back-standing.png using Guid(9ef0b9ab5c8a52f4687bc28904966097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e310de6d56e73db7505b21fede4994') in 0.009023 seconds 
+  Import took 0.010727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0009_front-walk-2.png
+  artifactKey: Guid(ff0618eaa7751414b83f441116a996db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0009_front-walk-2.png using Guid(ff0618eaa7751414b83f441116a996db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3796b9b2543d538e8473c03e22027a2') in 0.007282 seconds 
+  Import took 0.008917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0011_front-standing.png
+  artifactKey: Guid(6f83b928844a9a14ead860dbb238491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0011_front-standing.png using Guid(6f83b928844a9a14ead860dbb238491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3775bdc78cb5027644c48e26152e1f') in 0.014847 seconds 
+  Import took 0.016520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Sprites/Old Test Sprites/sprite-bases_0005_left-standing 1.png
+  artifactKey: Guid(6e9e05e81f309e542b4be45d59f6733e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Old Test Sprites/sprite-bases_0005_left-standing 1.png using Guid(6e9e05e81f309e542b4be45d59f6733e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c428254dd216e34328060cb5bdba2150') in 0.014404 seconds 
+  Import took 0.016233 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002615 seconds.
+Registered in 0.002367 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.565 seconds
+- Completed reload, in  0.560 seconds
 Domain Reload Profiling:
-	ReloadAssembly (565ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (560ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (457ms)
+		EndReloadAssembly (448ms)
 			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (170ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (32ms)
-				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadAttributes (120ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -224,75 +560,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.7 MB.
-System memory in use after: 75.8 MB.
+System memory in use before: 75.3 MB.
+System memory in use after: 75.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2103.
-Total: 1.977800 ms (FindLiveObjects: 0.107100 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.822000 ms  DeleteObjects: 0.012100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 528.120510 seconds.
-  path: Assets/Scenes/Upstairs.unity
-  artifactKey: Guid(bfc2555026130184b96eaa5e2d6e08ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Upstairs.unity using Guid(bfc2555026130184b96eaa5e2d6e08ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd70c02fa3d632108b0da904840f6ec') in 0.012533 seconds 
-  Import took 0.014678 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002301 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.591 seconds
-Domain Reload Profiling:
-	ReloadAssembly (592ms)
-		BeginReloadAssembly (80ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (473ms)
-			LoadAssemblies (53ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (181ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (33ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.7 MB.
-System memory in use after: 75.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2105.
-Total: 1.994000 ms (FindLiveObjects: 0.117200 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.821700 ms  DeleteObjects: 0.011800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2067.
+Total: 2.058500 ms (FindLiveObjects: 0.100800 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.908200 ms  DeleteObjects: 0.012700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -304,380 +576,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002245 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
-Domain Reload Profiling:
-	ReloadAssembly (568ms)
-		BeginReloadAssembly (74ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (456ms)
-			LoadAssemblies (52ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (168ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (32ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 75.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2107.
-Total: 1.960100 ms (FindLiveObjects: 0.106100 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.805900 ms  DeleteObjects: 0.012500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 242.032861 seconds.
-  path: Assets/Sprites/Old Test Sprites
-  artifactKey: Guid(a213e20fa91d30e44bdec06e8de16e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Old Test Sprites using Guid(a213e20fa91d30e44bdec06e8de16e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ce3096d10f5977aaa818fd6cfd9b16') in 0.006162 seconds 
-  Import took 0.008118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.533581 seconds.
-  path: Assets/Sprites/MC Sprites - Young
-  artifactKey: Guid(8cee004010e1e874a9f804eef98cf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young using Guid(8cee004010e1e874a9f804eef98cf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667ff529b503a5d9f355fd8091b314bd') in 0.004533 seconds 
-  Import took 0.006568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.882435 seconds.
-  path: Assets/Sprites/MC Sprites - Young/drive-download-20220420T093735Z-001.zip
-  artifactKey: Guid(a4a1dfd68c2fc0847b270ca9fd1b971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/drive-download-20220420T093735Z-001.zip using Guid(a4a1dfd68c2fc0847b270ca9fd1b971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0e4570d28cf4f2d5c241d79a26dc11') in 0.012634 seconds 
-  Import took 0.014575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.523317 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png
-  artifactKey: Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png using Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b2903810ff23c4cf8b27968621f113') in 0.019072 seconds 
-  Import took 0.021060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png
-  artifactKey: Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png using Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23470548bc6a78cd45da5c1ca9a3d42') in 0.011456 seconds 
-  Import took 0.013045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png
-  artifactKey: Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png using Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517081037aa83e1c712e0c44aa889eee') in 0.006217 seconds 
-  Import took 0.007805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png
-  artifactKey: Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png using Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de08204f1bcf2dcdaa0797a2f1a0d1f6') in 0.005836 seconds 
-  Import took 0.007327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png
-  artifactKey: Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png using Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fbec7caea613664f90ea14755bfc5d') in 0.005715 seconds 
-  Import took 0.007367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png
-  artifactKey: Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png using Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ddc080cf0c2f501c34ff8a985483cc') in 0.006094 seconds 
-  Import took 0.007808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png
-  artifactKey: Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png using Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e49e13f03f0ad8ece834ab32c7fb61') in 0.005828 seconds 
-  Import took 0.007505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png
-  artifactKey: Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png using Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661c4877b5712342958a9037fcd16b19') in 0.005768 seconds 
-  Import took 0.007451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png
-  artifactKey: Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png using Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cbac8cb153e8d200f99246ca6e83bd') in 0.005645 seconds 
-  Import took 0.007105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png
-  artifactKey: Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png using Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17184cecb78d558ee19a499a15204ea1') in 0.005753 seconds 
-  Import took 0.007364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png
-  artifactKey: Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png using Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c11fd4e67be6a6a8f1111b20373455') in 0.005892 seconds 
-  Import took 0.007383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png
-  artifactKey: Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png using Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9edc1aa57ba9903a67747126b12831') in 0.005868 seconds 
-  Import took 0.007445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.505225 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png
-  artifactKey: Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png using Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a3ad9ba1de74643d24f2d0b4aa55fe') in 0.025093 seconds 
-  Import took 0.027131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png
-  artifactKey: Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png using Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28229a42c1d970ee42f91f34df75a363') in 0.007575 seconds 
-  Import took 0.009099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png
-  artifactKey: Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png using Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3df38ee70336c607fdb31b5b49c676') in 0.014285 seconds 
-  Import took 0.016386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png
-  artifactKey: Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png using Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37e04dc2ef859c3470f3879957f3261') in 0.013147 seconds 
-  Import took 0.014713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png
-  artifactKey: Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png using Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b209c1b3a33dae1a9acc82da1c6775') in 0.013984 seconds 
-  Import took 0.015557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png
-  artifactKey: Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png using Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180c41978c032fee795f0027b87eb0f8') in 0.017679 seconds 
-  Import took 0.019236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png
-  artifactKey: Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png using Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2c172b0cc761abe9dfa9f1f55bed03') in 0.011397 seconds 
-  Import took 0.013137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png
-  artifactKey: Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png using Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b056396c2a5b4f9c8300100f5cd16b') in 0.007931 seconds 
-  Import took 0.009479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png
-  artifactKey: Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png using Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904aab0d41b36e060f78383916e0d4ff') in 0.009931 seconds 
-  Import took 0.011380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png
-  artifactKey: Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png using Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac50964c866bcfd5e8bbccf73121bc70') in 0.014109 seconds 
-  Import took 0.015859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png
-  artifactKey: Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png using Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0f5661b6b25cf414a577926d9b94c0') in 0.012115 seconds 
-  Import took 0.013731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png
-  artifactKey: Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png using Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dccf91f3a8aaf7730d8c4ad888f00bf') in 0.007852 seconds 
-  Import took 0.009510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.670280 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png
-  artifactKey: Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png using Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db45a1f7191f79413fbb5c739ffa55fb') in 0.005471 seconds 
-  Import took 0.007430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.123695 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png
-  artifactKey: Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0000_back-walk-2.png using Guid(57796b972e3c86547ba2bcdf68dcafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ab42faf3c34497ac7c11596d137660') in 0.006076 seconds 
-  Import took 0.008025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png
-  artifactKey: Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0011_front-standing.png using Guid(d5931565e48b6774aba2e86c07233301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ee90b71bfbf0377ff48cb9c4d39710') in 0.015088 seconds 
-  Import took 0.016700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png
-  artifactKey: Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0003_left-walk-2.png using Guid(0b0e2eef77c759842ac0c0adab4d5768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a078e19819471f701e4ed2b8b76c37') in 0.013607 seconds 
-  Import took 0.015325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png
-  artifactKey: Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0007_right-walk-1.png using Guid(dc65dea98a053b840ab1419ff03d5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812c579e166f3af50ed85106dcd3b2ec') in 0.012217 seconds 
-  Import took 0.013816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png
-  artifactKey: Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0004_left-walk-1.png using Guid(498aab1508c498a4f88fd98517d9954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a2ae1408099704539d2d9c67ba8332') in 0.006697 seconds 
-  Import took 0.008233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png
-  artifactKey: Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0006_right-walk-2.png using Guid(0a150668de904d844ad5ee582125dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a40c75daaaac7ad28e89393b6c295d') in 0.010261 seconds 
-  Import took 0.011856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png
-  artifactKey: Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0008_right-standing.png using Guid(f60f6480e862255409fcdde1dba0e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9c41bfcc9d376ac8da88daaa94cfa2') in 0.010485 seconds 
-  Import took 0.012154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png
-  artifactKey: Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0001_back-walk-1.png using Guid(bc4b22a2baec47140b7aae9ec1eef33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf16e9774dc3592279e148496c8edd3') in 0.007064 seconds 
-  Import took 0.008557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png
-  artifactKey: Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0009_front-walk-2.png using Guid(76d1c50ba3699f44b84c58ed216d4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b678115a53716bad5a8eb2595984ec9') in 0.009479 seconds 
-  Import took 0.010915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png
-  artifactKey: Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0005_left-standing.png using Guid(0a1edf6f98c280e41a3f58253bdef234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d07942074c3be70eb4b843a6fd271cc') in 0.006552 seconds 
-  Import took 0.008005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png
-  artifactKey: Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0010_front-walk-1.png using Guid(026a53bc4cc406c419d472568547fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726e07ea2006d919ef9bf5803e8808be') in 0.008292 seconds 
-  Import took 0.009723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png
-  artifactKey: Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MC Sprites - Young/MC-sprites_0002_back-standing.png using Guid(0ae11a6a2c8e43b49be8d38c68b34f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e72cc20910eaaca0ec3983ab4dadaa') in 0.012530 seconds 
-  Import took 0.014063 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
