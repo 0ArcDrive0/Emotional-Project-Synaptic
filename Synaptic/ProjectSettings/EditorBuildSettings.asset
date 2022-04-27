@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Upstairs.unity
     guid: bfc2555026130184b96eaa5e2d6e08ee
+  - enabled: 1
+    path: Assets/Scenes/Bathroom.unity
+    guid: 0b75a6c27aae99a4289a864700587986
   m_configObjects: {}
