@@ -22,6 +22,7 @@ public class DialogueTrigger : MonoBehaviour
   {
       if (playerInRange)
       {
+
           visualCue.SetActive(true);
           
           {
@@ -36,7 +37,7 @@ public class DialogueTrigger : MonoBehaviour
 
   private void OnTriggerEnter(Collider plyr)
   {
-      if (GetComponent<Collider>().gameObject.tag == "Player")
+      if (plyr.gameObject.CompareTag("Player"))
       {
           playerInRange = true;
       }
@@ -44,7 +45,7 @@ public class DialogueTrigger : MonoBehaviour
 
   private void OnTriggerExit(Collider plyr)
   {
-      if (GetComponent<Collider>().gameObject.tag == "Player")
+      if (plyr.gameObject.CompareTag("Player"))
       {
           playerInRange = false;
       }
