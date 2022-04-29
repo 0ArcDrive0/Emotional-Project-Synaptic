@@ -6,36 +6,83 @@ using Ink.Runtime;
 
 public class DialogueManager : MonoBehaviour
 {
-    private static DialogueManager instance;
+    public static DialogueManager instance;
 
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
-    [SerializedField] private TextMeshProGUI dialogueText;
+    [SerializeField] private TextMeshProUGUI dialogueText;
 
     private Story currentStory;
 
-    prviate bool dialogueIsPlaying;
+    private bool dialogueIsPlaying;
 
-    private void Awake
+    private void Awake()
     {
-        if(instance != null)
+        if (instance != null)
         {
-            Debug.Log Warning "Found more than one Dialogue Manager in the scene");
-
+            Debug.LogWarning ("Found more than one Dialogue Manager in the scene");
         }
         
-        instance = this;
+       instance = this;
+        
     }
 
     // Update is called once per frame
-    private static DialogueManager GetInstance()
+    public static DialogueManager GetInstance()
     {
         return instance;
     }
 
-private void Start()
-{
-    dialogueIsPlaying = false;
-    dialoguePanel.SetActive(false);
-}
+    private void Start()
+    {
+        dialogueIsPlaying = false;
+        dialoguePanel.SetActive(false);
+    }
+
+    private void Update()
+    {
+        //return right away if dialogue isnt playing
+        if (!dialogueIsPlaying)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            ContinueStory();
+        }
+    }
+
+    public void EnterDialogueMode(TextAsset inkJSON)
+    {
+        currentStory = new Story(inkJSON.text);
+        dialogueIsPlaying = true;
+
+        ContinueStory();
+    }
+
+
+    private void ExitDialogueMode()
+    {
+        dialogueIsPlaying = false;
+        dialoguePanel.SetActive(false);
+        dialogueText.text = "";
+        ContinueStory();
+
+    }
+
+ 
+
+    private void ContinueStory()
+    {
+        if (currentStory.canContinue)
+        {
+            dialogueText.text = currentStory.Continue();
+        }
+        else
+        {
+            ExitDialogueMode();
+        }
+    }
+    
 }
