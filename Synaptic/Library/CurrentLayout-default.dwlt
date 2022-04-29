@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 140
+  controlID: 85
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 44
+  controlID: 166
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 45
+  controlID: 167
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -536,23 +536,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Ink
+    - Assets/Scripts/Dialogue
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Ink
+  - Assets/Scripts/Dialogue
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\VR Ready\Documents\Jamal\Emotion Project\2022-02-25
-    09-33-45.mp4\Synaptic
+  m_LastProjectPath: C:\Users\jgould2021\Documents\GitHub\Emotional-Project-Synaptic\Synaptic
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 08440000
-    m_LastClickedID: 17416
-    m_ExpandedIDs: 00000000f8430000fa43000012440000
+    m_SelectedIDs: 42440000
+    m_LastClickedID: 17474
+    m_ExpandedIDs: 000000006c4100006e4100008641000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,7 +579,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8430000fa430000
+    m_ExpandedIDs: 000000006c4100006e410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -701,9 +700,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 28eeffff
-      m_LastClickedID: -4568
-      m_ExpandedIDs: 3af9ffffbc420000c8420000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 08faffff3efaffff28fbffffc63f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -763,9 +762,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.3661928, y: 1.4025476, z: 1.3010622}
+    m_Target: {x: 315.771, y: 379.46353, z: 91.48013}
     speed: 2
-    m_Value: {x: 2.3661928, y: 1.4025476, z: 1.3010622}
+    m_Value: {x: 315.771, y: 379.46353, z: 91.48013}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -812,13 +811,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2749326, y: 0.5532985, z: -0.1995335, w: -0.7609426}
+    m_Target: {x: -0.028508654, y: 0.010603295, z: 0.00001682881, w: -0.9998256}
     speed: 2
-    m_Value: {x: -0.27485368, y: 0.5531396, z: -0.19947623, w: -0.7607241}
+    m_Value: {x: -0.028500441, y: 0.010600241, z: 0.000016823962, w: -0.9995376}
   m_Size:
-    m_Target: 4.166025
+    m_Target: 276.7496
     speed: 2
-    m_Value: 4.166025
+    m_Value: 276.7496
   m_Ortho:
     m_Target: 0
     speed: 2
