@@ -53,9 +53,6 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Ink\Editor\Tools\Build Validation\InkPreBuildValidationCheck.cs" />
     <Compile Include="Assets\Ink\Editor\Tools\Ink Inspector\DefaultAssetInspector.cs" />
     <Compile Include="Assets\Ink\Editor\Core\Ink Settings\InkSettingsEditor.cs" />

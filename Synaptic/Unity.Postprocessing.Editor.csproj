@@ -53,9 +53,6 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.postprocessing@3.1.1\PostProcessing\Editor\Tools\ProfileFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.postprocessing@3.1.1\PostProcessing\Editor\PostProcessLayerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.postprocessing@3.1.1\PostProcessing\Editor\PostProcessDebugEditor.cs" />

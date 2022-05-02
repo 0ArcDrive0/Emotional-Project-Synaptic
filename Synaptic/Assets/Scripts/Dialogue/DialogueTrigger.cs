@@ -26,7 +26,7 @@ public class DialogueTrigger : MonoBehaviour
           visualCue.SetActive(true);
           
           {
-              Debug.Log(inkJSON.text);
+              DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
           }
       }
       else

@@ -39,7 +39,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
     }
 
-    private void Update()
+    public void Update()
     {
         //return right away if dialogue isnt playing
         if (!dialogueIsPlaying)
@@ -47,9 +47,10 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             ContinueStory();
+            Debug.Log("Space Key Was Pressed");
         }
     }
 
@@ -73,7 +74,7 @@ public class DialogueManager : MonoBehaviour
 
  
 
-    private void ContinueStory()
+    public void ContinueStory()
     {
         if (currentStory.canContinue)
         {
