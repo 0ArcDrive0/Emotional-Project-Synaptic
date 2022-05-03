@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Ink.Runtime;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -16,15 +17,18 @@ public class DialogueManager : MonoBehaviour
 
     private bool dialogueIsPlaying;
 
+    Image[] diagImages;
+    TMP_Text[] diagText;
+
     private void Awake()
     {
         if (instance != null)
         {
-            Debug.LogWarning ("Found more than one Dialogue Manager in the scene");
+            Debug.LogWarning("Found more than one Dialogue Manager in the scene");
         }
-        
-       instance = this;
-        
+
+        instance = this;
+
     }
 
     // Update is called once per frame
@@ -36,7 +40,12 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         dialogueIsPlaying = false;
-        dialoguePanel.SetActive(false);
+
+        diagImages = GameObject.Find("DialogueBox").GetComponentsInChildren<Image>();
+        diagText = GameObject.Find("DialogueBox").GetComponentsInChildren<TMP_Text>();
+
+        TurnOffDiag();
+        //dialoguePanel.SetActive(false);
     }
 
     public void Update()
@@ -46,18 +55,16 @@ public class DialogueManager : MonoBehaviour
         {
             return;
         }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ContinueStory();
-            Debug.Log("Space Key Was Pressed");
-        }
     }
 
     public void EnterDialogueMode(TextAsset inkJSON)
     {
-        currentStory = new Story(inkJSON.text);
-        dialogueIsPlaying = true;
+        if (!dialogueIsPlaying)
+        {
+            TurnOnDiag();
+            currentStory = new Story(inkJSON.text);
+            dialogueIsPlaying = true;
+        }
 
         ContinueStory();
     }
@@ -66,13 +73,11 @@ public class DialogueManager : MonoBehaviour
     private void ExitDialogueMode()
     {
         dialogueIsPlaying = false;
-        dialoguePanel.SetActive(false);
+        TurnOffDiag();
         dialogueText.text = "";
-        ContinueStory();
+        
 
     }
-
- 
 
     public void ContinueStory()
     {
@@ -85,5 +90,30 @@ public class DialogueManager : MonoBehaviour
             ExitDialogueMode();
         }
     }
-    
+
+    void TurnOffDiag()
+    {
+        foreach (TMP_Text text in diagText)
+        {
+            text.enabled = false;
+        }
+
+        foreach (Image image in diagImages)
+        {
+            image.enabled = false;
+        }
+    }
+
+    void TurnOnDiag()
+    {
+        foreach (TMP_Text text in diagText)
+        {
+            text.enabled = true;
+        }
+
+        foreach (Image image in diagImages)
+        {
+            image.enabled = true;
+        }
+    }
 }

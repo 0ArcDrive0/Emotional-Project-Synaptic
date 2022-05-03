@@ -21,9 +21,12 @@ public class TopDownCharMovement : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    private void FixedUpdate()
     {
-        
+        if (DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            return;
+        }
     }
 
     // Update is called once per frame
