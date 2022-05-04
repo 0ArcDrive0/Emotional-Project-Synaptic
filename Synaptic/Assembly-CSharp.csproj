@@ -61,9 +61,8 @@
     <Compile Include="Assets\Scripts\Movement\InputHandler.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\QuitGameOnKeypress.cs" />
     <Compile Include="Assets\Scripts\Movement\PlayerFollow.cs" />
-    <Compile Include="Assets\Scripts\Movement\Footsteps.cs" />
-    <Compile Include="Assets\Scripts\Dialogue\Triggers\DialogueTriggerV2.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\Movement\Footsteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
