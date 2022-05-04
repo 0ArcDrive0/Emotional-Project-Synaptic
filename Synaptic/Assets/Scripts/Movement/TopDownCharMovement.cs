@@ -21,13 +21,7 @@ public class TopDownCharMovement : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    private void FixedUpdate()
-    {
-        if (DialogueManager.GetInstance().dialogueIsPlaying)
-        {
-            return;
-        }
-    }
+    
 
     // Update is called once per frame
     void Update()
@@ -40,7 +34,11 @@ public class TopDownCharMovement : MonoBehaviour
        myAnim.SetFloat("MoveY" , _input.InputVector.y);
         myAnim.SetFloat("LastMoveX", _input.InputVector.x);
         myAnim.SetFloat("LastMoveY", _input.InputVector.y);
+
+     
     }
+
+
 
     private void MoveTowardTarget(Vector3 targetVector)
     {
