@@ -314,7 +314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3215375026601061216, guid: 8c12a507daa11c84d84f03d50b75ccae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.7534533
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 3215375026601061216, guid: 8c12a507daa11c84d84f03d50b75ccae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2292,8 +2292,8 @@ MonoBehaviour:
       colorBlindnessType: 0
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
+  m_ShowToolkit: 1
+  m_ShowCustomSorter: 1
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
@@ -2475,7 +2475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: 8dd82069452e59049a2668f3952d3a37, type: 2}
-  isGlobal: 0
+  isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0

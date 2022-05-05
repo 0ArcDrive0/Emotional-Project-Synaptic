@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 41
+  controlID: 19
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 439
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -156,7 +156,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -536,22 +536,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Movement
+    - Assets/Models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Movement
+  - Assets/Models
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jgould2021\Documents\GitHub\Emotional-Project-Synaptic\Synaptic
+  m_LastProjectPath: C:\Users\VR Ready\Documents\Jamal\Emotion Project\2022-02-25
+    09-33-45.mp4\Synaptic
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 74}
+    scrollPos: {x: 0, y: 31}
     m_SelectedIDs: 54460000
     m_LastClickedID: 18004
-    m_ExpandedIDs: 0000000000460000024600002e460000324600003c4600005246000000ca9a3b
+    m_ExpandedIDs: 00000000444600004646000050460000584600005a460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,7 +580,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000046000002460000
+    m_ExpandedIDs: 000000004446000046460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -700,9 +701,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 426d0000
-      m_LastClickedID: 27970
-      m_ExpandedIDs: aa43ffff7e44ffff2675ffff5c77ffff787effff0a8cffff1cabffffbec1ffff4ef8ffffb0430000c4430000ce430000d2430000e0430000e4430000e8430000fc4300002244000096440000c45d0000e85d0000006d0000426d0000b66d0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 4ad3ffff9aeeffff80f0ffff4af8ffffb84b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -762,9 +763,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 518.14075, y: 453.37384, z: 182.46985}
+    m_Target: {x: 0.026708119, y: -4.9457097, z: 5.926375}
     speed: 2
-    m_Value: {x: 518.14075, y: 453.37384, z: 182.46985}
+    m_Value: {x: 0.026708119, y: -4.9457097, z: 5.926375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -811,13 +812,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.07595491, y: -0.065771505, z: -0.0049997303, w: 0.9949585}
+    m_Target: {x: -0.27989125, y: 0.029661816, z: -0.008706679, w: -0.95957994}
     speed: 2
-    m_Value: {x: -0.07594495, y: -0.06726177, z: -0.0051134974, w: 0.9948277}
+    m_Value: {x: -0.2813179, y: 0.029647408, z: -0.008750782, w: -0.9591166}
   m_Size:
-    m_Target: 225.8768
+    m_Target: 7.7411394
     speed: 2
-    m_Value: 225.8768
+    m_Value: 7.4077888
   m_Ortho:
     m_Target: 0
     speed: 2
