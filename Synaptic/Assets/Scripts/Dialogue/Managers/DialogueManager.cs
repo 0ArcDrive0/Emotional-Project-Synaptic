@@ -14,7 +14,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
 
     [Header("Choices UI")]
+
     [SerializeField] private GameObject[] choices;
+
     private TextMeshProUGUI[] choicesText;
 
     Image[] diagImages;
@@ -138,9 +140,9 @@ public class DialogueManager : MonoBehaviour
 
     private void DisplayChoice()
     {
-        List<GameObject> currentChoices = currentStory.currentChoices;
+        List<Choice> currentChoices = currentStory.currentChoices;
 
-        if (currentChoices.Count > choices.length)
+        if (currentChoices.Count > choices.Length)
         {
             Debug.LogError("Too many choices given than the fixed amount that it can support"
                 + currentChoices.Count);

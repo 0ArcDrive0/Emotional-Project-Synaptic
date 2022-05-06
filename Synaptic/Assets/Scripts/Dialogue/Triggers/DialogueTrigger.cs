@@ -23,7 +23,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (playerInRange)
         {
-            Debug.Log("Advance");
+            //Debug.Log("Advance");
             visualCue.SetActive(true);
 
             if (Input.GetKeyDown(KeyCode.Space))
