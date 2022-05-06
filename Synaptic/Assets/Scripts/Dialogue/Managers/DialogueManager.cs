@@ -13,18 +13,21 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
 
+    [Header("Choices UI")]
+    [SerializeField] private GameObject[] choices;
+    private TextMeshProUGUI[] choicesText;
+
+    Image[] diagImages;
+    TMP_Text[] diagText;
+
+
     private Story currentStory;
 
     public bool dialogueIsPlaying { get; private set; }
 
-    [Header("Choices UI")]
-    [SerializeField] private GameObject[] choices;
+   
 
-
-    private TextMeshProUGUI[] choicesText;
-
-Image[] diagImages;
-    TMP_Text[] diagText;
+    
 
     private void Awake()
     {
@@ -51,6 +54,14 @@ Image[] diagImages;
 
         TurnOffDiag();
         //dialoguePanel.SetActive(false);
+
+        choicesText = new TextMeshProUGUI[choices.Length];
+        int index = 0;
+            foreach (GameObject choice in choices)
+        {
+            choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
+            index++;
+        }
     }
 
     public void Update()
@@ -90,6 +101,8 @@ Image[] diagImages;
         {
             Debug.Log(dialogueText);
             dialogueText.text = currentStory.Continue();
+            //
+            DisplayChoice();
         }
         else
         {
@@ -122,4 +135,29 @@ Image[] diagImages;
             image.enabled = true;
         }
     }
+
+    private void DisplayChoice()
+    {
+        List<GameObject> currentChoices = currentStory.currentChoices;
+
+        if (currentChoices.Count > choices.length)
+        {
+            Debug.LogError("Too many choices given than the fixed amount that it can support"
+                + currentChoices.Count);
+        }
+        int index = 0;
+        //
+        foreach(Choice choice in currentChoices)
+        {
+            choices[index].gameObject.SetActive(true);
+            choicesText[index].text = choice.text;
+            index++;
+        }
+        //Go through other choices and make sure they stay hidden
+        for(int i = index; i < choices.Length; i++)
+        {
+            choices[i].gameObject.SetActive(false);
+        }
+    }
+
 }

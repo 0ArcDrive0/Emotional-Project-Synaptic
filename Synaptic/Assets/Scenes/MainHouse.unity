@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 163019189}
   - component: {fileID: 163019188}
   m_Layer: 5
-  m_Name: Choice0 (1)
+  m_Name: Choice1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -732,7 +732,7 @@ GameObject:
   - component: {fileID: 281810019}
   - component: {fileID: 281810018}
   m_Layer: 5
-  m_Name: Choice0 (2)
+  m_Name: Choice2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1605,7 +1605,7 @@ GameObject:
   - component: {fileID: 853119028}
   - component: {fileID: 853119027}
   m_Layer: 5
-  m_Name: ChoiceText2
+  m_Name: ChoiceText1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1650,7 +1650,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 'Option 2
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1839,7 +1841,7 @@ GameObject:
   - component: {fileID: 910708556}
   - component: {fileID: 910708555}
   m_Layer: 5
-  m_Name: ChoiceText3
+  m_Name: ChoiceText2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1884,7 +1886,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 'Option 3
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2490,7 +2494,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 2142480903}
   dialogueText: {fileID: 519642776}
-  choices: []
+  choices:
+  - {fileID: 2144077424}
+  - {fileID: 163019186}
+  - {fileID: 281810016}
 --- !u!1 &1359744984
 GameObject:
   m_ObjectHideFlags: 0
@@ -2503,7 +2510,7 @@ GameObject:
   - component: {fileID: 1359744987}
   - component: {fileID: 1359744986}
   m_Layer: 5
-  m_Name: ChoiceText1
+  m_Name: ChoiceText0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2548,7 +2555,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 'Option 1
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
