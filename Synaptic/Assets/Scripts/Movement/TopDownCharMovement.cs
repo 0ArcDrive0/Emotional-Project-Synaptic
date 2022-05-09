@@ -35,6 +35,10 @@ public class TopDownCharMovement : MonoBehaviour
         myAnim.SetFloat("LastMoveX", _input.InputVector.x);
         myAnim.SetFloat("LastMoveY", _input.InputVector.y);
 
+        if (DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            return;
+        }
      
     }
 
