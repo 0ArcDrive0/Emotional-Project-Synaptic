@@ -1,0 +1,2 @@
+# Starting compiling Ink-Libraries.dll
+C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-7ecc2d3ea4762a44b882a7a8b9ee69bf
