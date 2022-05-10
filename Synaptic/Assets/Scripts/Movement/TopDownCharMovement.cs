@@ -26,18 +26,22 @@ public class TopDownCharMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       var targetVector = new Vector3(_input.InputVector.x, 0, _input.InputVector.y); 
+        /* if (DialogueManager.GetInstance().dialogueIsPlaying)
+         {
+             return;
+         }*/
 
-       MoveTowardTarget(targetVector);
-
-       myAnim.SetFloat("MoveX" , _input.InputVector.x);
-       myAnim.SetFloat("MoveY" , _input.InputVector.y);
-        myAnim.SetFloat("LastMoveX", _input.InputVector.x);
-        myAnim.SetFloat("LastMoveY", _input.InputVector.y);
-
-        if (DialogueManager.GetInstance().dialogueIsPlaying)
+        if (DialogueManager.GetInstance().dialogueIsPlaying == false)
         {
-            return;
+            var targetVector = new Vector3(_input.InputVector.x, 0, _input.InputVector.y);
+
+            MoveTowardTarget(targetVector);
+
+            myAnim.SetFloat("MoveX", _input.InputVector.x);
+            myAnim.SetFloat("MoveY", _input.InputVector.y);
+            myAnim.SetFloat("LastMoveX", _input.InputVector.x);
+            myAnim.SetFloat("LastMoveY", _input.InputVector.y);
+
         }
      
     }

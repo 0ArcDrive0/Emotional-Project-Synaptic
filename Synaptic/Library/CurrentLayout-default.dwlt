@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 93
+  controlID: 94
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 439
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 94
+  controlID: 95
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 95
+  controlID: 96
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -279,13 +279,13 @@ MonoBehaviour:
     height: 562
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 22}
   - {fileID: 23}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -536,23 +536,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Ink/Dialogue/NPC interactions
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Ink/Dialogue/NPC interactions
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\VR Ready\Documents\Jamal\Emotion Project\2022-02-25
-    09-33-45.mp4\Synaptic
+  m_LastProjectPath: C:\Users\jgould2021\Documents\GitHub\Emotional-Project-Synaptic\Synaptic
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 8}
-    m_SelectedIDs: 20460000
-    m_LastClickedID: 17952
-    m_ExpandedIDs: 000000000a4600000c46000018460000224600004e46000032480000
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 80450000
+    m_LastClickedID: 17792
+    m_ExpandedIDs: 00000000dc430000de430000e4430000e8430000f24300007c450000444f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,7 +579,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a4600000c460000
+    m_ExpandedIDs: 00000000dc430000de430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -701,9 +700,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7c5afdff
-      m_LastClickedID: -173444
-      m_ExpandedIDs: bc5afdffba5dfdff5468fdff32c7fdff46c9fdff80cdfdffdee3fdff1029feffd831feff0467feff14d1feffbca7ffff86f8ffff8af8ffff9af8ffff604300006c430000884300008c430000a6430000aa43000080440000866d0000967c0000
+      m_SelectedIDs: fe13000000140000
+      m_LastClickedID: 0
+      m_ExpandedIDs: dafaffff26fbffff504000008c4000001a4100002241000088410000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -763,9 +762,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.5341213, y: -1.0614966, z: -3.9467564}
+    m_Target: {x: 664.30566, y: 405.9761, z: -328.71307}
     speed: 2
-    m_Value: {x: -1.5341213, y: -1.0614966, z: -3.9467564}
+    m_Value: {x: 664.30566, y: 405.9761, z: -328.71307}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -812,13 +811,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14512694, y: 0.82828987, z: -0.24955897, w: -0.48051223}
+    m_Target: {x: 0.0004229125, y: -0.9966445, z: 0.08423104, w: 0.003989499}
     speed: 2
-    m_Value: {x: -0.14547949, y: 0.8274451, z: -0.2493039, w: -0.48168245}
+    m_Value: {x: 0.00042282554, y: -0.9964396, z: 0.084213726, w: 0.003988679}
   m_Size:
-    m_Target: 2.5243068
+    m_Target: 257.6941
     speed: 2
-    m_Value: 2.2243068
+    m_Value: 257.6941
   m_Ortho:
     m_Target: 0
     speed: 2
