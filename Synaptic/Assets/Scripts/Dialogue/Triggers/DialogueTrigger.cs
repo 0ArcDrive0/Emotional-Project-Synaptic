@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogueTrigger : MonoBehaviour
 {
@@ -51,7 +52,7 @@ public class DialogueTrigger : MonoBehaviour
         {
             playerInRange = false;
 
-            SceneManager.LoadScene()
+            
         }
     }
 }
