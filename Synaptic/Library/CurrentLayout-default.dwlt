@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 41
+  controlID: 45
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -534,24 +534,24 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Dialogue/Triggers
+    - Assets/Models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Dialogue/Triggers
+  - Assets/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jgould2021\Documents\GitHub\Emotional-Project-Synaptic\Synaptic
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4e4d0000
-    m_LastClickedID: 19790
-    m_ExpandedIDs: 00000000ec490000ee490000064a0000404d000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 4c460000
+    m_LastClickedID: 17996
+    m_ExpandedIDs: 000000003046000032460000444600005046000052460000544600006646000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,7 +579,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec490000ee490000
+    m_ExpandedIDs: 000000003046000032460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,7 +667,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 345
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -700,9 +700,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0a90ffff
-      m_LastClickedID: -28662
-      m_ExpandedIDs: 1293ffff9a94fffffcb5ffff1eb6ffff26b6ffff28b6ffff32b6ffff56b6ffffb6b6ffff84f6ffff9af6ffff524600006a460000fa460000864700008e4700009c470000a8470000
+      m_SelectedIDs: 0c88fdff
+      m_LastClickedID: -161780
+      m_ExpandedIDs: 84b5fdff4eb8fdff32bbfdff240ffeff260ffeff2c0ffeff2e0ffeff3a0ffeff4a0ffeff520ffeff5c0ffeffc00ffefffc0ffeff1029feff204afeff8422ffffc222ffff1295ffff2c9affff0e9cffff70faffffc2faffff1c420000204200003c420000385500006a5a00007c5a0000145b00001e5b00004a5b0000c673000000750000687500006c8c0000168d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -762,9 +762,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.8059442, y: 1.532836, z: -1.4959158}
+    m_Target: {x: 1.2843423, y: 1.8186307, z: -1.4313654}
     speed: 2
-    m_Value: {x: 2.8059442, y: 1.532836, z: -1.4959158}
+    m_Value: {x: 1.2843423, y: 1.8186307, z: -1.4313654}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -811,20 +811,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.35028806, y: 0.27276805, z: -0.10855281, w: 0.88993466}
+    m_Target: {x: -0.088834874, y: 0.88721675, z: -0.41243997, w: -0.18927531}
     speed: 2
-    m_Value: {x: 0.3502979, y: 0.27131462, z: -0.10798021, w: 0.88995504}
+    m_Value: {x: -0.08940977, y: 0.88649887, z: -0.41210496, w: -0.19051288}
   m_Size:
-    m_Target: 0.7970295
+    m_Target: 0.8165515
     speed: 2
-    m_Value: 0.797038
+    m_Value: 0.8165515
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.6806609
-    m_SpeedNormalized: 0.34000045
+    m_Speed: 1.1604208
+    m_SpeedNormalized: 0.5800004
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -900,7 +900,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -952,9 +952,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 635
+    y: 639
     width: 1480
-    height: 364
+    height: 360
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &25
 MonoBehaviour:

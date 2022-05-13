@@ -63,7 +63,7 @@
     <Compile Include="Assets\Scripts\Movement\PlayerFollow.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Movement\Footsteps.cs" />
-    <Compile Include="Assets\Scripts\Dialogue\Triggers\DialogueTrigger2.cs" />
+    <Compile Include="Assets\Scripts\Others\MainMenu (1).cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -666,13 +666,17 @@
       <Project>{53593781-A2FE-1A4F-8230-6AD52FE73F0B}</Project>
       <Name>Ink-Libraries</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{CB6586A0-AA21-764C-D330-B4444AC1CC37}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="InkEditor.csproj">
       <Project>{6FBAC455-3BBB-E47D-7977-6954B3DF45C8}</Project>
       <Name>InkEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{72084287-06A5-13B9-891E-65FF069244E3}</Project>
-      <Name>Unity.VSCode.Editor</Name>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{2B259EA7-2FE7-6872-4018-273F5C3F5E2D}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
       <Project>{3ED7C5EA-F739-E78E-F410-8C95088271DC}</Project>
@@ -681,6 +685,10 @@
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
       <Project>{FF22A250-9487-5E49-06C0-5A5FD78DD232}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{72084287-06A5-13B9-891E-65FF069244E3}</Project>
+      <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{8ED7DDF4-C021-94DF-7AC5-8876497F3B00}</Project>
@@ -718,10 +726,6 @@
       <Project>{D6B0B36D-1F91-CA12-408F-0B325CDBA725}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{920FD1FD-533C-7133-B79F-F8D856B897C8}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{6CD33656-EB8C-7BAE-458C-E249D6FCACB0}</Project>
       <Name>Unity.Rider.Editor</Name>
@@ -730,13 +734,9 @@
       <Project>{7E8CC733-2E57-EBDD-D85E-4666A9BFFD79}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{2B259EA7-2FE7-6872-4018-273F5C3F5E2D}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{CB6586A0-AA21-764C-D330-B4444AC1CC37}</Project>
-      <Name>Cinemachine</Name>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{920FD1FD-533C-7133-B79F-F8D856B897C8}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
