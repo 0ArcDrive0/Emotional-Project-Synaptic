@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogueTrigger : MonoBehaviour
 {
@@ -49,7 +50,10 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (plyr.gameObject.CompareTag("Player"))
         {
-            playerInRange = false;
+         
+
+
         }
     }
+    
 }

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637873427726893612
-    m_Hash: 433984079
+      ticks: 637882902780211767
+    m_Hash: 1517919787
   m_LockFileStatus:
     m_FilePath: C:/Users/VR Ready/Documents/Jamal/Emotion Project/2022-02-25 09-33-45.mp4/Synaptic/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637873427726903584
-    m_Hash: 3046092960
+      ticks: 637882902780646915
+    m_Hash: 1835110567
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -3132,6 +3132,7 @@ m_PackageAssets:
         - 1.2.0
         - 1.3.1
         - 1.3.2
+        - 1.4.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3144,6 +3145,7 @@ m_PackageAssets:
         - 1.2.0
         - 1.3.1
         - 1.3.2
+        - 1.4.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
