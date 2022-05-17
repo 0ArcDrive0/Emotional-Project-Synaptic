@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MainHouse_Profiles/Balcony.unity
+- path: Assets/Scenes/MainHouse_Profiles/ParentsBedroom.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

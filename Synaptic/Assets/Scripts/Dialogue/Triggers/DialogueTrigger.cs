@@ -50,9 +50,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (plyr.gameObject.CompareTag("Player"))
         {
-         
-
-
+            playerInRange = false;
         }
     }
     
